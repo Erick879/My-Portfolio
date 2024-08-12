@@ -1,0 +1,380 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+  .hero{
+      position:relative;
+      width: 100%;
+      height: 100vh;
+      background-image: url("background.avif");
+      background-size: cover;
+      height: auto;
+  }
+
+  .logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  nav{
+      display: flex;
+      width: 84%;
+      margin: auto;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+      
+  }
+
+  nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 30px 20px;
+  }
+
+  nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+
+  }
+
+  nav ul li a:hover{
+      box-shadow: 0 0 15px #ffee10
+  }
+
+  .self{
+      margin-left: 8%;
+      padding-top: 5%;
+  }
+
+  .self h1{
+      font-size: 90px;
+      color: black;
+      margin-bottom: 20px;
+      margin-left:0px;
+      font-weight: bold;
+      text-shadow: 1px 1px white;
+  }
+  .self h2{
+      font-size: 70px;
+      color: black;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px white;
+      
+  }
+
+ 
+  span{
+      color: goldenrod;
+      text-shadow: none;
+  }
+
+  .self p{
+     color: white; 
+     font-size: 20px;
+     width: 60%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .self a{ 
+      background-color: goldenrod;
+      padding: 10px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      display: inline-block;
+      margin: 30px 0;
+      border-radius: 5px;
+  }
+
+
+
+/***************************************************/
+/* ABOUT                                          */
+/***************************************************/
+
+  .cube{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 3px;
+    height: auto;
+    row-gap: 60px;
+    column-gap: 60px;
+
+  }
+  #first, #second,#third, #fourth, #fifth{
+    border: 2px solid white;
+    height: 300px;
+    border-radius: 20px;
+    width:600px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 20px;
+    
+  }
+
+  #first h1{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #second h1{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #third h1{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #fourth h1{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #fifth h1{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #first,#second,#third,#fourth,#fifth p{
+    color: white;
+    font-size: large;
+  }
+  
+
+
+/***************************************************/
+/* HOME                                            */
+/***************************************************/
+
+*{
+  margin:0px;
+  padding: 3px;
+}
+#grid-container{
+  display:grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  margin-top: 50px;
+}
+
+#item1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#item2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: justify;
+}
+
+#item3{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#item4{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-image: url(erick.jpg);
+  background-size: cover;
+}
+
+.myself{
+ padding: 10px;
+}
+
+.motivation{
+  font-style: italic;
+}
+.item{
+font-weight: bold;
+}
+/***************************************************/
+/* PROJECTS                                        */
+/***************************************************/
+
+#projects-info{
+  margin: 10px 20px;
+}
+
+#projects-info h1{
+  color: goldenrod;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#projects-info p{
+  color: white;
+  font-size: large;
+}
+
+#flex-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-card {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.project-link {
+  text-decoration: none;
+  color: #444;
+}
+
+.project-title {
+  text-transform: none;
+  font-style: normal;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.project-text{
+  maegin: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/***************************************************/
+/* CV                                       */
+/***************************************************/
+
+#cv-grid {
+  padding: 0px 20px;
+}
+@media screen and (min-width: 700px) {
+  #cv-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  #cv-title {
+    grid-column: 1 / 6;
+  }
+  #cv-contact {
+    grid-column: 6 / 9;
+    align-self: center;
+  }
+  #cv-profile,
+  #cv-skills,
+  #cv-work,
+  #cv-education {
+    grid-column: 1 / 3;
+  }
+  #cv-profile-info,
+  #cv-skills-info,
+  #cv-work-info,
+  #cv-education-info {
+    grid-column: 3 / 9;
+  }
+  #cv-grid hr {
+    grid-column: 1 / 9;
+    width: 95%;
+    background-color: #004279;
+  }
+}
+.work-title-left {
+  display: inline-block;
+  width: 74%;
+}
+.work-title-right {
+  display: inline-block;
+  width: 24%;
+}
+
+/***************************************************/
+/* CONTACT                                      */
+/***************************************************/
+.contact-wrapper{
+  margin: 20px;
+}
+
+.form-question {
+  margin: 20px 0px;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.form-question label {
+  display: block;
+  margin-bottom: 5px;
+}
+.required label::after {
+  content: " *";
+  color: red;
+}
+.form-question input, .form-question textarea {
+  width: 80vw;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#submit {
+  padding: 5px 15px;
+  background-color: royalblue;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  box-shadow: 1px 2px #333333;
+  font-weight: bold;
+}
+#submit:hover {
+  background-color: white;
+  color: royalblue;
+  border: 1px solid royalblue;
+  box-shadow: none;
+}
+#contact{
+  color: goldenrod;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#par{
+  color: white;
+  font-size: large;
+}

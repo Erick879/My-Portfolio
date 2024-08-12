@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+          <div class="logo">
+              <img src="../logo.png" style="max-width: 150px;">
+          </div>
+          <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../about.html">ABOUT</a></li>
+            <li><a href="../projects.html">PROJECTS</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="../contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      
+
+    <div class="wrapper">
+        
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">  
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        <select></select> <!-- Ensure this is empty -->
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagsapi.com/np/flat/64.png" alt="flag">
+                        <select></select> <!-- Ensure this is empty -->
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">1 USD = 134.32 NPR</div>
+            <button>Get Exchange Rates</button>
+        </form>
+    </div>
+</div>
+
+    <script src="country-list.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
